@@ -24,7 +24,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #fef0f1;
-  padding: 0 7vw;
+  margin: 0 10vw;
 }
 
 ul, a, p, h1, h2, h3, h4, h5, h6 {
@@ -137,7 +137,7 @@ header {
   min-height: 90vh;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 5rem;
 }
 
 .cats-content-container {
@@ -153,7 +153,9 @@ header {
   padding: 24px 0;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
+  min-width: 288px;
   gap: 24px;
 }
 
@@ -184,12 +186,14 @@ header {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 5rem;
 }
 
 .albums-content-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 3rem;
 }
 
@@ -204,11 +208,10 @@ header {
   background-color: #fde3e4;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 24px;
+  min-width: 300px;
 }
 
 .album {
-  min-width: 320px;
-  min-height: 360px;
   display: flex;
   justify-content: center;
   align-items: center;
