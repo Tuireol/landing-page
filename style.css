@@ -143,6 +143,7 @@ header {
 .cats-content-container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .cats-container {
@@ -179,38 +180,48 @@ header {
   align-items: center;
 }
 
-.album-footer {
-  text-align: center;
-  font-size: 18px;
-  max-width: 300px;
-}
-
 .albums-main-container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  gap: 9em;
+  gap: 5rem;
 }
 
 .albums-content-container {
-  min-height: 90vh;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 4rem;
+  flex-direction: column;
+  gap: 3rem;
 }
 
 .album-container {
-  flex: 1 0 80vw;
-  align-items: center;
+  min-height: 40vh;
   display: flex;
-  gap: 0.6em;
-  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  gap: 24px;
+  flex-wrap: wrap;
   background-color: #fde3e4;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  padding: 40px;
   border-radius: 24px;
+}
+
+.album {
+  min-width: 320px;
+  min-height: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.album-about {
+  flex: 1 1 300px;
+  display: flex;
+  align-items: center;
+}
+.album-text {
+  font-size: 18px;
+  text-align: justify;
 }
 
 .filler-section {
