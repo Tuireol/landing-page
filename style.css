@@ -1,18 +1,23 @@
-/* some colors for this site
+/* colors for this site
 --text: #180101;
 --background: #fef0f1;
 --primary: #670406;
 --secondary: #faaeae;
---accent: #d10a0d;
---black: #180101;
---subtle: #f7e8e9;
+--accent: #d10a0d; --unused
+--black: #180101; --same as text color
 --cards: #fde3e4;
 --primary-card: #e7cdce;
+--subtle: #f7e8e9;
 */
 
 
 /* header font: Lora
 normal font: Bitter */
+
+
+/* finished on 27-08-2023 03:41 UTC 
+created by Tuireol (Çağrı Uysal)*/
+
 @import url('https://fonts.googleapis.com/css2?family=Bitter&family=Lora&display=swap');
 
 * {
@@ -65,10 +70,6 @@ img {
   background-color: #faaeae;
 }
 
-.accent-color {
-  background-color: #d10a0d;
-}
-
 header {
   height: 8vh;
   display: flex;
@@ -115,10 +116,10 @@ header {
 }
 
 .greeting-box {
-  flex: 0 1 24em;
+  flex: 0 1 24rem;
   display: flex;
   flex-direction: column;
-  gap: 0.6em;
+  gap: 0.6rem;
   text-align: justify;
   padding: 32px;
   margin: 2rem 1rem;
@@ -264,8 +265,16 @@ header {
   flex: 1 1 120px;
 }
 
+.subtle-text {
+  color: #f7e8e9;
+}
+
 footer {
-  height: 5vh;
+  min-height: 5vh;
+  text-align: center;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 1rem;
 }
