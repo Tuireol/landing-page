@@ -76,6 +76,7 @@ header {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  padding-top: 1rem;
 }
 
 .header-links {
