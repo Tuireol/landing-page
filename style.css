@@ -74,6 +74,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .header-links {
@@ -189,7 +190,6 @@ header {
   flex-direction: column;
   align-items: center;
   gap: 5rem;
-  padding: 0 0 20vh; 
 }
 
 .albums-content-container {
@@ -229,24 +229,39 @@ header {
   text-align: justify;
 }
 
-.filler-section {
+.farewell-main-container {
   min-height: 95vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.filler-box {
+.farewell-content-container {
   background-color: #faaeae;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 5em;
+  justify-content: space-around;
+  font-size: 18px;
+  text-align: justify;
+  flex-wrap: wrap;
+  gap: 40px;
+  width: 65vw;
   padding: 40px;
+  border-radius: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
-.long-lorem-ipsum {
-  width: 60vw;
+.farewell-text {
+  flex: 6 1 300px;
+}
+
+.farewell-button {
+  border-radius: 20px;
+  padding: 24px;
+  font-size: 18px;
+  width: 70px;
+  flex: 1 1 120px;
 }
 
 footer {
